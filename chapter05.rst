@@ -220,7 +220,7 @@ Here's a rundown of each setting.
 
   Example::
 
-      DATABASE_ENGINE = 'postgresql_psycopg2'
+      DATABASE_ENGINE = 'django.db.backends.postgresql_psycopg2'
 
 * ``DATABASE_NAME`` tells Django the name of your database. For example::
 
@@ -566,7 +566,7 @@ list, so the setting ends up looking like this::
         # 'django.contrib.contenttypes',
         # 'django.contrib.sessions',
         # 'django.contrib.sites',
-        'mysite.books',
+        'books',
     )
 
 (As we mentioned last chapter when setting ``TEMPLATE_DIRS``, you'll need to be
